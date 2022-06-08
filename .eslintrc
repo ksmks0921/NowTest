@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "airbnb"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "react/jsx-closing-bracket-location": [4, {selfClosing: 'tag-aligned', nonEmpty: 'after-props'}],
+    "react/jsx-filename-extension": [4, { "extensions": [".js", ".jsx"] }],
+    "react/require-default-props": 0,
+    "react/sort-comp": [4, {
+      order: [
+        'type-annotations',
+        'static-methods',
+        'lifecycle',
+        'render',
+        'everything-else'
+      ]
+    }]
+  }
+}
